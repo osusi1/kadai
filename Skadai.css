@@ -1,0 +1,158 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+	
+
+/* -------------------- wrapper -------------------- */
+#wrapper {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    background-color: #e0ffff;	
+    top: 10px;
+}
+
+/* -------------------- header -------------------- */
+.parent {
+    max-width: 90%;
+    margin: 0 auto;
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+ 
+.child {
+    flex-grow: 1;
+ 
+    border:10px dotted #ff8c00;
+    padding: 5px;
+    margin: 0 5px;
+}
+ 
+.child p {
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px dotted #000;
+}
+ 
+/* 画像のサイズは常に固定 */
+.child-left img {
+    /* 幅・高さを具体的に指定する */
+    width : calc(742px * 0.25);
+    height: calc(800px * 0.25);
+}
+ 
+/* Flexboxの大きさに追従
+   ※画像の元サイズ(= 100%)が上限 */
+.child-center img {
+    /* 幅もしくは高さを最大100%に設定、もう一方はauto */
+    max-width: 100%;
+    height: auto;
+}
+ 
+/* Flexboxの大きさに追従
+　　※上限なし */
+.child-right img {
+    /* 幅もしくは高さを100%に設定、もう一方はauto */
+    width: 100%; /* 親のサイズ目一杯まで広がる */
+    height: auto;
+}
+ /* -------------------- main -------------------- */
+main {
+    font-family: poprumcute,serif;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #ff8c00;
+}
+
+
+
+
+
+
+
+
+/* -------------------- nav -------------------- */
+#nav {
+	width: 100%;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nav ul li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+#nav ul li a {
+	display: block;
+	height: 20px;
+	margin: 0;
+	padding: 10px;
+	color: #FFF;
+	font-size: 20px;
+	font-family: pigmo00;
+	text-decoration: none;
+	background-color: #da70d6;
+}
+#nav ul li a:hover {
+	filter: drop-shadow(10px 10px 10px white);
+}
+/* -------------------- nav2 -------------------- */
+
+
+#nav2 {
+	width: 100%;
+}
+#nav2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nav2 ul li {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#nav2 ul li a {
+    font-family: ZinHenaBokuryu,san-serif;
+	display: block;
+	height: 20px;
+	margin: 0px;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #ff8c00;
+	border-color:black;
+	border:1;
+}
+#nav2 ul li a:hover {
+	filter: drop-shadow(10px 10px 10px #a0522d);
+	filter: opacity( 40%);
+
+}
+
+/* -------------------- footer -------------------- */
+#footer {
+	clear: both;
+	width: 100%;
+	padding: 3px 0 3px 0;
+	background: #39F;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
