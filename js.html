@@ -8,11 +8,31 @@
 </head>
 <body>
     <script>
-    let myString = 'ユーザー名';
+   
+    let enemy = 10;
+          let command;
+          let random;
 
-    myString = '太郎';
+          while(true) {
+              command = prompt('敵が現れた!(【１】攻撃　【２】逃げる）');
+              random = Math.floor(Math.random()*10);
 
-    console.log('ようこそ、' + myString + 'さん');
+              if(command == '1') {
+
+                  enemy = enemy - random;
+                  console.log(random + 'の攻撃！');
+                  if(enemy <= 0){
+                      console.log('敵を倒した！');
+                      break;
+                  }
+                  console.log('敵の体力は残り' + enemy +'です');
+              } else if(command ==='2') {
+                  console.log('無事に逃げました');
+                  break;
+              }
+          }
+          console.log('ゲーム終了');
+ 
   </script>
 </body>
 </html>
