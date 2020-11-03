@@ -1,38 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 </head>
 <body>
-    <script>
-   
-    let enemy = 10;
-          let command;
-          let random;
+  <script>
+ let enemy = 10;
+let command;
+let random;
 
-          while(true) {
-              command = prompt('敵が現れた!(【１】攻撃　【２】逃げる）');
-              random = Math.floor(Math.random()*10);
+while(true) {
+  command = prompt('敵が現れた！（【1】攻撃　【2】逃げる）');
+  random = Math.floor(Math.random() * 10);
+  
+  // [攻撃]を選択した場合
+  if(command === '1') {
+    
+    enemy = enemy - random;
+    console.log(random + 'の攻撃！');
+    if(enemy <=0) {
+      console.log('敵を倒した！');
+      break;
+    }
+    console.log('敵の体力は残り' + enemy + 'です');
 
-              if(command == '1') {
+  // [逃げる]を選択した場合
+  } else if(command === '2') {
+    
+    console.log('無事に逃げました');
+    break;
+    
+  }
+}
 
-                  enemy = enemy - random;
-                  console.log(random + 'の攻撃！');
-                  if(enemy <= 0){
-                      console.log('敵を倒した！');
-                      break;
-                  }
-                  console.log('敵の体力は残り' + enemy +'です');
-              } else if(command ==='2') {
-                  console.log('無事に逃げました');
-                  break;
-              }
-          }
-          console.log('ゲーム終了');
- 
+console.log('ゲーム終了');
   </script>
 </body>
 </html>

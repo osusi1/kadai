@@ -1,0 +1,493 @@
+<html lang="ja" class="cye-disabled cye-lm js no-touch" style=""><head>
+<meta charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="keyword" content="イケメン,恋愛,ゲーム,チャット,二次元">
+<meta name="description" content="男性向けの恋する二次元チャットゲーム">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="robots" content="noindex,nofollow">
+<title>にじげんカノジョ</title>
+<link href="/common/css/pc/reset.css?20200922093930" rel="stylesheet" type="text/css">
+<link href="/common/css/pc/layout.css?20200922093930" rel="stylesheet" type="text/css">
+<link href="/common/css/pc/style.css?20200922093930" rel="stylesheet" type="text/css">
+<link href="/common/css/pc/option.css?20200922093930" rel="stylesheet" type="text/css">
+<link href="/common/css/pc/android.css?20200922093930" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+
+<script src="/common/js/jquery/jquery.min.js" type="text/javascript"></script><style id="nightModeStyle">
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
+ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style><style id="cyebody">html.cye-enabled.cye-lm body{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyediv">html.cye-enabled.cye-lm div{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyetable">html.cye-enabled.cye-lm th{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}html.cye-enabled.cye-lm td{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}html.cye-enabled.cye-lm textarea{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style><style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#A9C2C4 !important;border-color:rgb(45, 51, 52) !important;background-image:none !important;color:#66AFB8  !important}</style>
+<script src="/common/js/jquery/jquery.easing.1.3.js"></script>
+<script src="/common/js/jquery/jquery.smoothScroll.js"></script>
+<script src="/common/js/script.js?20200922093930" type="text/javascript"></script>
+<script src="/common/js/pc.script.js?20200922093930" type="text/javascript"></script>
+<script src="/common/js/common.js?20200922093930" type="text/javascript"></script>
+<script src="/common/js/modernizr/modernizr.custom.js"></script>
+
+<script src="/plugins/jquery-ui/jquery-ui.min.js"></script>
+<link href="/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="/plugins/jquery-ui/jquery-ui.theme.css" rel="stylesheet" type="text/css" media="all">
+<link href="/plugins/jquery-ui/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" media="all">
+
+<link rel="shortcut icon" href="/ico/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.nijichat.jp/apple-touch-icon.png">
+
+
+
+
+<script charset="utf-8" src="https://platform.twitter.com/js/moment~timeline~tweet.2e5232162202896d50461b242819754e.js"></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.610564c46865d0bb1eccdd42c0dc6ea7.js"></script></head><div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 1980px; height: 1080px; z-index: -2147483648;"></div>
+<body style="">
+
+
+
+
+
+
+<div id="loading" style="display: none;"><img src="/images/loading.gif"></div>
+
+<div id="modal-overlay"></div>
+
+<div id="dialog-box"></div>
+
+<div id="dialog-error"></div>
+
+<div id="screen-overlay">
+	<div class="zoomout-button">
+		<a href="javascript:void(0)" class="mail-frame-zoomout-pc"><img src="/images/smart/button/button-zoomout.png" class="button-zoomout"></a>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="top"></div>
+
+<div id="wrapper">
+
+
+		<header>
+	<div id="top"><img src="/images/pc/header.png"></div>
+</header>
+
+
+			<div id="navigationArea">
+
+							<section>
+					<ul>
+						<li><a href="/main/"><img src="/images/pc/button/button-home.png"></a></li>
+						<li><a href="/character/"><img src="/images/pc/button/button-mail.png"></a><p class="check-unread">4</p></li>
+						<li><a href="/gacha/"><img src="/images/pc/button/button-gacha.png"></a></li>
+						<li><a href="/shop/"><img src="/images/pc/button/button-shop.png" style="opacity: 1;"></a></li>
+					</ul>
+					<ul>
+						<li id="present-menu"><a href="/presentbox/"><img src="/images/pc/button/button-present.png"></a></li>
+												<li><a href="/contents/decome/"><img src="/images/pc/button/button-contents.png"></a></li>
+						<li><a href="/album/"><img src="/images/pc/button/button-album.png"></a></li>
+						<li><a href="/exchange/"><img src="/images/pc/button/button-exchange.png"></a></li>
+					</ul>
+					<ul>
+						<li><a href="/event/"><img src="/images/pc/button/button-event.png" style="opacity: 1;"></a></li>
+						<li><a href="/news/"><img src="/images/pc/button/button-news.png"></a></li>
+													<li><a href="javascript:void(0)" class="ticket-menu" data-tor-smoothscroll="noSmooth"><img src="/images/pc/button/button-tickethome.png"></a></li>
+							<li><a href="javascript:void(0)" class="item-menu" data-tor-smoothscroll="noSmooth"><img src="/images/pc/button/button-itemlist.png"></a></li>
+											</ul>
+					<ul>
+						<li><a href="/mypage/"><img src="/images/pc/button/button-mypage.png" style="opacity: 1;"></a></li>
+						<li><a href="/information/guide/"><img src="/images/pc/button/button-guide.png" style="opacity: 1;"></a></li>
+						<li><a href="/tutorial/"><img src="/images/pc/button/button-tutorial.png"></a></li>
+						<li><a href="/information/help/"><img src="/images/pc/button/button-help.png"></a></li>
+					</ul>
+					<div class="clear"></div>
+				</section>
+
+				<div id="sideNewsArea">
+
+										<div id="side-news-list">
+																						<p><a href="/news/detail/0/243/"></a></p><div class="news-date"><a href="/news/detail/0/243/">2020.09.22</a></div><a href="/news/detail/0/243/">【重要】本日09/22起床時間が変更になる女の子をお知らせ致します。</a><p></p>
+																	<p><a href="/news/detail/0/182/"></a></p><div class="news-date"><a href="/news/detail/0/182/">2020.09.22</a></div><a href="/news/detail/0/182/">【おまけ】18禁ボイス交換券！【バイブアクメ版：澪】が登場！！</a><p></p>
+																	<p><a href="/news/detail/0/190/"></a></p><div class="news-date"><a href="/news/detail/0/190/">2020.09.21</a></div><a href="/news/detail/0/190/">【新イベント】只今より「3Pハーレムドリーム」の渚ちゃん＆かおるこちゃんを開放致します！</a><p></p>
+																	<p><a href="/news/detail/0/209/"></a></p><div class="news-date"><a href="/news/detail/0/209/">2020.09.21</a></div><a href="/news/detail/0/209/">【おまけ】18禁ボイス交換券！！【同時絶頂版：しずく】が登場！！</a><p></p>
+																	<p><a href="/news/detail/0/270/"></a></p><div class="news-date"><a href="/news/detail/0/270/">2020.09.20</a></div><a href="/news/detail/0/270/">【60万人突破記念イベント第2弾】3Pハーレムドリーム開催致します！</a><p></p>
+															
+											</div>
+
+				</div>
+
+				<div id="twitterArea">
+					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 100%; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px; height: 9672.48px;" data-widget-id="profile:nijigenkanojyo" title="Twitterタイムライン"></iframe> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+									</div>
+	
+	
+
+		<div id="mainArea">
+
+				<div id="screen" style="display: none;"></div>
+		
+		<link href="/plugins/slider-pro-master/dist/css/slider-pro.css?20200922093930" rel="stylesheet" type="text/css" media="screen">
+<script src="/plugins/slider-pro-master/dist/js/jquery.sliderPro.min.js"></script>
+<script src="/common/js/character.function.js" type="text/javascript"></script>
+<script type="text/javascript">
+$( document ).ready(function( $ ) {
+
+		
+		$('#main-image').sliderPro({
+			buttons: true,
+			shuffle: false,
+			loop: true,
+			autoplay: true,
+			slideDistance:0,
+			breakpoints: {
+
+			}
+		});
+
+	
+});
+
+</script>
+
+<div id="container">
+
+	
+		<div id="main-image" class="sp-horizontal sp-has-buttons" style="width: 100%; max-width: 500px;">
+					
+						<div class="sp-slides-container"><div class="sp-mask sp-grab" style="width: 480px; height: 288px;"><div class="sp-slides" style="transform: translate3d(-960px, 0px, 0px);">
+								
+									
+									
+									
+									
+									
+							<div class="sp-slide" data-index="0" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 1920px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/event/detail/271/"><img src="https://file.nijichat.jp/attachments/img/banner/20200915221533.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200915221533.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px; opacity: 1;"></a></div>
+											
+										</div><div class="sp-slide" data-index="1" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 2400px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/shop/"><img src="https://file.nijichat.jp/attachments/img/banner/20200902210825.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200902210825.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px;"></a></div>
+											
+										</div><div class="sp-slide" data-index="2" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 0px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/character/"><img src="https://file.nijichat.jp/attachments/img/banner/20200919223758.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200919223758.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px;"></a></div>
+											
+										</div><div class="sp-slide" data-index="3" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 480px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/character/"><img src="https://file.nijichat.jp/attachments/img/banner/20200917204216.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200917204216.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px;"></a></div>
+											
+										</div><div class="sp-slide sp-selected" data-index="4" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 960px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/character/"><img src="https://file.nijichat.jp/attachments/img/banner/20200916230056.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200916230056.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px; opacity: 1;"></a></div>
+											
+										</div><div class="sp-slide" data-index="5" data-init="true" data-retina-loaded="true" style="width: 480px; height: 288px; left: 1440px;" data-loaded="true"><div class="sp-image-container" style="width: 480px; height: 288px;"><a href="/character/"><img src="https://file.nijichat.jp/attachments/img/banner/20200915221043.jpg" class="sp-image" border="0" data-default="https://file.nijichat.jp/attachments/img/banner/20200915221043.jpg" style="width: auto; height: 100%; margin-left: -5px; margin-top: 0px;"></a></div>
+											
+										</div></div></div></div><div class="sp-buttons"><div class="sp-button"></div><div class="sp-button"></div><div class="sp-button"></div><div class="sp-button"></div><div class="sp-button sp-selected-button"></div><div class="sp-button"></div></div></div>
+	
+	
+			<div id="topCharacterArea">
+
+			<div id="topCharacterImage"><img src="https://file.nijichat.jp/attachments/img/attaches/20190306202146168071.jpg"></div>
+			<div id="topCharacterMessageArea">
+				<div id="topCharacterMessage">男の人とちゃんと話すなんて子供の頃以来だから緊張してます…でも仲良くなりたいからもっと話したいです♪</div>
+				<div id="topCharacterSelectButton"><a href="/character/select/"><img src="/images/smart/button/button-character-select.png" style="opacity: 1;"></a></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	
+	<div style="height: 10px;"></div>
+
+			<div class="title">新着メール<span>未読 : 4件</span></div>
+		<div class="container-box">
+								<ul class="list">
+						<li>
+													<a href="/mail/detail/559724/">
+													<div class="image">
+																	<img src="https://file.nijichat.jp/attachments/img/attaches/20200331150529558194.jpg">
+															</div>
+							<div class="list-contents">
+								<div class="content">
+									<div class="name">山田 かおるこ(やまだ かおるこ)</div>
+									<div class="talk">
+										三才ですよ～♪　フフッ、やっと乗り気になってくれましたね…///（グーーーッ…）…今のおさだ君のお腹の音ですか？									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="under">
+								<span class="option">新着♪</span>
+																	<span class="unread">未読</span>
+																									<span class="photocheck">画像アリ</span>
+																<span class="under-date">2020年09月21日 13時23分</span>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+													</a>
+						</li>
+					</ul>
+									<ul class="list">
+						<li>
+													<a href="/mail/detail/680229/">
+													<div class="image">
+																	<img src="https://file.nijichat.jp/attachments/img/attaches/20200630152004680229.jpg">
+															</div>
+							<div class="list-contents">
+								<div class="content">
+									<div class="name">七瀬 小春(ななせ こはる)</div>
+									<div class="talk">
+										あれ……この視線…だ、誰か小春のお尻を見ていませんかっ？<img src="/images/emoji/docomo/162.gif" border="0"> 									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="under">
+								<span class="option">新着♪</span>
+																	<span class="unread">未読</span>
+																									<span class="photocheck">画像アリ</span>
+																<span class="under-date">2020年09月21日 12時50分</span>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+													</a>
+						</li>
+					</ul>
+									<ul class="list">
+						<li>
+													<a href="/mail/detail/470153/">
+													<div class="image">
+																	<img src="https://file.nijichat.jp/attachments/img/attaches/20200131204157470153.jpg">
+															</div>
+							<div class="list-contents">
+								<div class="content">
+									<div class="name">芹沢凛(せりざわ りん)</div>
+									<div class="talk">
+										……ほら……好きなんでしょ……？❤女子学園生のパンツ❤ 									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="under">
+								<span class="option">新着♪</span>
+																	<span class="unread">未読</span>
+																									<span class="photocheck">画像アリ</span>
+																<span class="under-date">2020年09月21日 11時45分</span>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+													</a>
+						</li>
+					</ul>
+									<ul class="list">
+						<li>
+													<a href="/mail/detail/492544/">
+													<div class="image">
+																	<img src="https://file.nijichat.jp/attachments/img/attaches/20200227175210492544.jpg">
+															</div>
+							<div class="list-contents">
+								<div class="content">
+									<div class="name">成人向けカノジョ</div>
+									<div class="talk">
+										アナタのオチンチンを入れて…ください♡									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="under">
+								<span class="option">新着♪</span>
+																	<span class="unread">未読</span>
+																									<span class="photocheck">画像アリ</span>
+																<span class="under-date">2020年09月21日 11時20分</span>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+													</a>
+						</li>
+					</ul>
+									</div>
+
+		<div class="image-center"><a href="/character/"><img src="/images/smart/button/button-talklist.png" style="width: 250px; height: 60px;"></a></div>
+	
+
+			<div class="title-nomargin">INFORMATION</div>
+						<div class="banner">
+									<a href="/event/detail/271/"><img src="https://file.nijichat.jp/attachments/img/banner/20200915221423.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/shop/"><img src="https://file.nijichat.jp/attachments/img/banner/20200902210700.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/event/detail/255/"><img src="https://file.nijichat.jp/attachments/img/banner/20200831153245.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/event/detail/274/"><img src="https://file.nijichat.jp/attachments/img/banner/20200919223715.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/event/detail/273/"><img src="https://file.nijichat.jp/attachments/img/banner/20200917204049.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/event/detail/272/"><img src="https://file.nijichat.jp/attachments/img/banner/20200916190411.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/event/detail/270/"><img src="https://file.nijichat.jp/attachments/img/banner/20200915220949.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/album/"><img src="https://file.nijichat.jp/attachments/img/banner/20190510215518.jpg" border="0"></a>
+								</div>
+							<div class="banner">
+									<a href="/information/guide/"><img src="https://file.nijichat.jp/attachments/img/banner/20190510215741.jpg" border="0"></a>
+								</div>
+						
+
+		<div class="title-nomargin">お知らせ</div>
+	<section id="news-list">
+					<ul>
+								<li><a href="/news/detail/0/243/"><div class="news-date">2020.09.22</div>【重要】本日09/22起床時間が変更になる女の子をお知らせ致します。</a></li>
+									<li><a href="/news/detail/0/182/"><div class="news-date">2020.09.22</div>【おまけ】18禁ボイス交換券！【バイブアクメ版：澪】が登場！！</a></li>
+									<li><a href="/news/detail/0/190/"><div class="news-date">2020.09.21</div>【新イベント】只今より「3Pハーレムドリーム」の渚ちゃん＆かおるこちゃんを開放致します！</a></li>
+									<li><a href="/news/detail/0/209/"><div class="news-date">2020.09.21</div>【おまけ】18禁ボイス交換券！！【同時絶頂版：しずく】が登場！！</a></li>
+									<li><a href="/news/detail/0/270/"><div class="news-date">2020.09.20</div>【60万人突破記念イベント第2弾】3Pハーレムドリーム開催致します！</a></li>
+							</ul>
+			
+			</section>
+
+	
+</div>
+
+
+						<link href="/common/css/smart/modal.css" rel="stylesheet" type="text/css">
+
+
+<script src="/common/js/modal.script.js?20200922093930" type="text/javascript"></script>
+<script src="/common/js/modal.function.js?20200922093930" type="text/javascript"></script>
+
+
+
+	<link href="/plugins/colorbox-master/css/colorbox.css" rel="stylesheet">
+	<script src="/plugins/colorbox-master/js/jquery.colorbox.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+		colorbox_width	= "460";
+
+		constructDefine(colorbox_width);
+
+
+</script>
+
+
+
+
+	<div id="ticket-frame">
+		<div id="ticket-area" class="modal-box">
+			<div class="modal-title"><img src="/images/smart/title/title-ticket.png"></div>
+			<div class="modal-contents">
+				<div class="modal-frame-user-point"><div class="modal-frame-point">にじハート × <span id="user-point">7</span>個</div></div>
+				<div class="modal-frame-free-point"><div class="modal-frame-point">あかハート × <span id="free-point">8</span>個</div></div>
+								<div class="clear"></div>
+			</div>
+			<div class="modal-under"></div>
+		</div>
+	</div>
+
+	<div id="item-frame">
+		<div id="item-area" class="modal-box">
+			<div class="modal-title"><img src="/images/smart/title/title-itembox.png"></div>
+							<div class="modal-list">
+					<ul>
+											<li class="item-list" id="item-id-2945454">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208141004.png">
+														<span class="item-name" id="item-name-2945454">イヤリング</span>
+							<span class="item-description" id="item-description-2945454">女の子にあげると送信1回分好感度が大きくUPする
+</span>
+															<p class="check-count" id="item-num-2945454">4</p>
+													</li>
+											<li class="item-list" id="item-id-2945167">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190207191851.png">
+														<span class="item-name" id="item-name-2945167">ガチャチケット</span>
+							<span class="item-description" id="item-description-2945167">1枚で1回ガチャが引けます</span>
+															<p class="check-count" id="item-num-2945167">23</p>
+													</li>
+											<li class="item-list" id="item-id-2945453">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140657.png">
+														<span class="item-name" id="item-name-2945453">キャンディ</span>
+							<span class="item-description" id="item-description-2945453">女の子にあげると送信1回分好感度が少しUPする
+</span>
+															<p class="check-count" id="item-num-2945453">6</p>
+													</li>
+											<li class="item-list" id="item-id-2945456">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190211145313.png">
+														<span class="item-name" id="item-name-2945456">キャンドル</span>
+							<span class="item-description" id="item-description-2945456">女の子にあげると送信4回分好感度が少しUPする
+</span>
+															<p class="check-count" id="item-num-2945456">3</p>
+													</li>
+											<li class="item-list" id="item-id-2945450">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140714.png">
+														<span class="item-name" id="item-name-2945450">ケーキ</span>
+							<span class="item-description" id="item-description-2945450">女の子にあげると送信3回分好感度が少しUPする
+</span>
+															<p class="check-count" id="item-num-2945450">2</p>
+													</li>
+											<li class="item-list" id="item-id-2945451">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140728.png">
+														<span class="item-name" id="item-name-2945451">ドーナツ</span>
+							<span class="item-description" id="item-description-2945451">女の子にあげると送信2回分好感度が少しUPする
+</span>
+															<p class="check-count" id="item-num-2945451">5</p>
+													</li>
+											<li class="item-list" id="item-id-2945449">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208141027.png">
+														<span class="item-name" id="item-name-2945449">ネックレス</span>
+							<span class="item-description" id="item-description-2945449">女の子にあげると送信3回分好感度が大きくUPする
+</span>
+															<p class="check-count" id="item-num-2945449">1</p>
+													</li>
+											<li class="item-list" id="item-id-2945481">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140946.png">
+														<span class="item-name" id="item-name-2945481">バラの花束</span>
+							<span class="item-description" id="item-description-2945481">女の子にあげると送信3回分好感度がUPする
+</span>
+															<p class="check-count" id="item-num-2945481">1</p>
+													</li>
+											<li class="item-list" id="item-id-2945452">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140919.png">
+														<span class="item-name" id="item-name-2945452">フラワー</span>
+							<span class="item-description" id="item-description-2945452">女の子にあげると送信1回分好感度がUPする
+</span>
+															<p class="check-count" id="item-num-2945452">5</p>
+													</li>
+											<li class="item-list" id="item-id-2945448">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190211145334.png">
+														<span class="item-name" id="item-name-2945448">口紅</span>
+							<span class="item-description" id="item-description-2945448">女の子にあげると送信4回分好感度がUPする
+</span>
+															<p class="check-count" id="item-num-2945448">1</p>
+													</li>
+											<li class="item-list" id="item-id-2945439">
+														<img src="https://file.nijichat.jp/attachments/img/item/20200913220110.png">
+														<span class="item-name" id="item-name-2945439">成人向け鬼ごっこ部屋の鍵</span>
+							<span class="item-description" id="item-description-2945439">使用する事で成人向けカノジョのイベントと会話する事が可能となります。</span>
+															<p class="check-count" id="item-num-2945439">1</p>
+													</li>
+											<li class="item-list" id="item-id-2945447">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190208140933.png">
+														<span class="item-name" id="item-name-2945447">花束</span>
+							<span class="item-description" id="item-description-2945447">女の子にあげると送信2回分好感度がUPする
+</span>
+															<p class="check-count" id="item-num-2945447">7</p>
+													</li>
+											<li class="item-list" id="item-id-2945455">
+														<img src="https://file.nijichat.jp/attachments/img/item/20190424173530.png">
+														<span class="item-name" id="item-name-2945455">香水</span>
+							<span class="item-description" id="item-description-2945455">女の子にあげると2時間送信分の好感度がUPする
+</span>
+															<p class="check-count" id="item-num-2945455">1</p>
+													</li>
+										</ul>
+				</div>
+						<div class="clear"></div>
+		</div>
+	</div>
+
+		
+	</div>
+	
+	<div class="clear"></div>
+
+
+		<footer>
+	<div id="footer-end"><img src="/images/pc/footer.png"></div>
+</footer>
+
+</div>
+
+
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.nijichat.jp" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body><div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 50% 0% / auto no-repeat scroll padding-box border-box white; height: 3127px; width: 964px;"></div><div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: url(&quot;https://www.nijichat.jp/images/pc/background/background-main.jpg&quot;) 50% 0% / auto no-repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 3127px; width: 964px;"></div></html>
